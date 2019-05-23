@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/profile_background">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="@drawable/profile_first_layer">
+
+                <ImageView
+                    android:layout_marginTop="50px"
+                    android:layout_marginBottom="50px"
+                    android:layout_width="300px"
+                    android:layout_height="300px"
+                    android:src="@drawable/ic_person"/>
+                <TextView
+                    android:id="@+id/profile_username"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorTitle"
+                    android:text="Placeholder username"/>
+                <TextView
+                    android:id="@+id/profile_fullname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="50px"
+                    android:layout_marginTop="5px"
+                    android:textSize="18sp"
+                    android:textStyle="normal"
+                    android:textColor="@color/colorSubTitle"
+                    android:text="Placeholder fullname"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="50px"
+                android:paddingTop="70px"
+                android:paddingBottom="70px"
+                android:gravity="center">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:paddingLeft="50px"
+                    android:paddingTop="70px"
+                    android:paddingBottom="70px"
+                    android:background="@drawable/profile_second_layer">
+                    <TextView
+                        android:id="@+id/profile_email"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Placeholder e-mail"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorWhite"/>
+                    <TextView
+                        android:id="@+id/profile_phone_number"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Placeholder phone number"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorWhite"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

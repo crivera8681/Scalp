@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_ticket"
+            android:icon="@drawable/ic_ticket"
+            android:title="Tickets" />
+        <item
+            android:id="@+id/nav_post_ticket"
+            android:icon="@drawable/ic_post_ticket"
+            android:title="Post Ticket" />
+        <item
+            android:id="@+id/nav_notification"
+            android:icon="@drawable/ic_message"
+            android:title="Notifications" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_person"
+            android:title="Profile" />
+    </group>
+
+    <item android:title="Other Actions">
+        <menu>
+            <item
+                android:id="@+id/nav_sign_out"
+                android:icon="@drawable/ic_sign_out"
+                android:title="Sign Out" />
+        </menu>
+    </item>
+
+
+</menu>

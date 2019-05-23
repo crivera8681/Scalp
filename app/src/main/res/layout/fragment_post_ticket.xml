@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/home"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:background="@drawable/profile_first_layer"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/postticket_eventname"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20sp"
+                    android:background="@color/colorWhite"
+                    android:drawableLeft="@drawable/ic_event"
+                    android:hint="Event name"
+                    android:textColor="@color/colorTitle"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/postticket_price"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20px"
+                    android:layout_marginBottom="50px"
+                    android:background="@color/colorWhite"
+                    android:drawableLeft="@drawable/ic_dollarsign"
+                    android:hint="Price"
+                    android:textColor="@color/colorTitle"
+                    android:textSize="18sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="50px"
+                android:paddingTop="70px"
+                android:paddingBottom="70px">
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/profile_second_layer"
+                    android:columnCount="2"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:paddingLeft="50px"
+                    android:paddingTop="70px"
+                    android:paddingBottom="70px"
+                    android:rowCount="2">
+
+                    <EditText
+                        android:id="@+id/postticket_date"
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:background="@color/colorWhite"
+                        android:drawableLeft="@drawable/ic_calendar"
+                        android:hint="Date"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/postticket_time"
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="20px"
+                        android:background="@color/colorWhite"
+                        android:drawableLeft="@drawable/ic_clock"
+                        android:hint="Time"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/postticket_quantity"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:background="@color/colorWhite"
+                        android:drawableLeft="@drawable/ic_quantity"
+                        android:hint="Quantity"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/postticket_seats"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="20px"
+                        android:background="@color/colorWhite"
+                        android:drawableLeft="@drawable/ic_event_seat"
+                        android:hint="Seats"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </GridLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/ticketView2"
+                    android:layout_marginLeft="50dp"
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:src="@mipmap/ic_launcher"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="30dp">
+                    <Button
+                        android:id="@+id/postticket_confirm"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:text="Confirm" />
+
+                    <Button
+                        android:id="@+id/button13"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:onClick="cameraButton"
+                        android:text="Take Picture" />
+
+                    <Button
+                        android:id="@+id/postticket_golist"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:text="Go to ticket list" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

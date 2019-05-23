@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".TicketInfoAct">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginTop="30sp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/ticketinfo_eventname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Event Name"
+            android:textSize="30sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Price: "
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/ticketinfo_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Price"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date: "
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/ticketinfo_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time: "
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/ticketinfo_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quantity: "
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/ticketinfo_quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quantity"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Seats: "
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/ticketinfo_seats"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Seats"
+                android:textSize="30sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Status: "
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/ticketinfo_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Availability"
+                android:textColor="@android:color/holo_green_light"
+                android:textSize="30sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Seller: "
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/ticketinfo_seller"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Seller"
+                android:textSize="30sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone Number: "
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/ticketinfo_phone_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Number"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
